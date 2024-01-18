@@ -1,0 +1,200 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* header section  */
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #014872;
+}
+
+header h1{
+  color: wheat;
+  margin-right: 30px;
+  filter: drop-shadow(1px 4px 4px black);
+}
+
+header ul{
+  margin-left: 90px;
+}
+
+header ul a{
+  font-size: 24px;
+  color: wheat;
+  text-decoration-line: none;
+  text-transform: uppercase;
+  margin: 0px 10px 0px 10px;
+  transition: 0.3s;
+}
+
+header ul a:hover{
+  color: #000;
+}
+
+/* .profile section  */
+
+.profile,
+.about,
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  height: 500px;
+  background-color: #eee;
+  margin: 80px auto;
+}
+
+.profile .descrebtion{
+  margin: 0px 0px 50px 100px;
+}
+
+.profile .descrebtion h2{
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.profile .descrebtion h1{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.profile .descrebtion span{
+  font-size: 30px;
+}
+
+.profile .descrebtion .btn button{
+  margin-top: 30px;
+  width: 150px;
+  height: 55px;
+  background-color: #014872;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.profile .descrebtion .btn button a{
+  text-decoration-line: none;
+  color: wheat;
+  font-size: 25px;
+}
+
+.profile .descrebtion .btn button:hover,
+.contact form button:hover{
+  background-color: #2e89ad;
+  border: 3px dashed #514945;
+}
+
+.profile img{
+  margin: 0px 50px 50px 0px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* about section  */
+
+.about{
+  height: 450px;
+}
+
+.about img{
+  width: 360px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.about .descrebtion {
+  margin-bottom: 90px;
+  margin-right: 100px;
+}
+
+.about .descrebtion h2{
+  width: 160px;
+  font-size: 40px;
+  border-bottom: 2px dashed rgb(75, 204, 251);
+}
+
+.about .descrebtion p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 23px;
+  width: 430px;
+}
+
+.about .descrebtion a{
+  margin-top: 30px;
+  font-size: 23px;
+  color: #121212;
+}
+
+/* contact section  */
+
+.contact .links{
+  margin: 0px 0px 120px 100px;
+}
+
+.contact .links h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.contact .links ul li{
+  font-size: 25px;
+  margin: 15px 0px 0px 15px;
+}
+
+.contact .links ul li a{
+  color: #121212;
+}
+
+.contact form{
+  width: 400px;
+  margin: 0px 50px -10px 0px;
+}
+
+.contact form input{
+  width: 380px;
+  height: 50px;
+  padding-left: 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+.contact form textarea{
+  width: 388px;
+  height: 160px;
+  padding: 15px 0px 0px 15px;
+}
+
+.contact form button{
+  margin-top: 10px;
+  width: 110px;
+  height: 45px;
+  color: wheat;
+  font-size: 18px;
+  background-color: #014872;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* right's */
+
+.right{
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 10px;
+}
